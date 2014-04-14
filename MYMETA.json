@@ -1,0 +1,82 @@
+{
+   "abstract" : "A lightweight Pushover API warpper.",
+   "author" : [
+      "OGATA Tetsuji <tetsuji.ogata@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.4.3, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-Pushover",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "recommends" : {
+            "Data::Dumper" : "0"
+         },
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.2"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "HTTP::Tiny" : "0",
+            "LWP::UserAgent" : "0"
+         },
+         "requires" : {
+            "Carp" : "0",
+            "JSON::PP" : "0",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "WWW::Pushover" : {
+         "file" : "lib/WWW/Pushover.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/xtetsuji/p5-WWW-Pushover/issues"
+      },
+      "homepage" : "https://github.com/xtetsuji/p5-WWW-Pushover",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/xtetsuji/p5-WWW-Pushover.git",
+         "web" : "https://github.com/xtetsuji/p5-WWW-Pushover"
+      }
+   },
+   "version" : "0.01"
+}

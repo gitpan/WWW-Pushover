@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+META.json
+README.md
+api-doc.sh
+cpanfile
+lib/WWW/Pushover.pm
+t/00_compile.t
+META.yml
+MANIFEST
